@@ -5,7 +5,7 @@ identidock:
         environment:
                 ENV: PROD
         links:
-                - dnmonster
+                #- dnmonster
                 - redis
 
         dnmonster:
